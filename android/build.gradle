@@ -22,10 +22,10 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 23
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -41,9 +41,9 @@ android {
 
 dependencies {
     // java version
-    implementation "androidx.work:work-runtime:2.7.0"
+    implementation "androidx.work:work-runtime:2.7.1"
     // kotlin version
-    // implementation "androidx.work:work-runtime-ktx:2.7.0"
+    // implementation "androidx.work:work-runtime-ktx:2.7.1"
     implementation "androidx.concurrent:concurrent-futures:1.1.0"
     implementation "androidx.annotation:annotation:1.2.0"
     implementation "androidx.lifecycle:lifecycle-livedata:2.3.1"
